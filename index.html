@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh 2.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: #e3f6e9;
+            padding: 40px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #218838;
+        }
+
+        .pillars {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .pillars h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .pillar-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pillar-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .pillar-card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .vision {
+            background-color: #fff;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .opinion, .newsletter {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .news-section {
+            padding: 40px;
+        }
+
+        .news-card {
+            display: flex;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-image {
+            flex-shrink: 0;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+        }
+
+        .news-content h3 {
+            margin: 0;
+        }
+
+        .donate-section {
+            background-color: #e3f6e9;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .donate-buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        .donate-buttons button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bangladesh 2.0</h1>
+        <a href="#">Sign In</a>
+    </header>
+
+    <section class="hero">
+        <h2>Idea, Innovation, Vision and Challenges in New Bangladesh</h2>
+        <button>Explore New Bangladesh</button>
+    </section>
+
+    <section class="pillars">
+        <h2>Pillars of "Bangladesh 2.0"</h2>
+        <div class="pillar-cards">
+            <div class="pillar-card">
+                <h3>Innovation</h3>
+                <p>Short description here.</p>
+            </div>
+            <div class="pillar-card">
+                <h3>Sustainability</h3>
+                <p>Short description here.</p>
+            </div>
+            <div class="pillar-card">
+                <h3>Infrastructure</h3>
+                <p>Short description here.</p>
+            </div>
+            <div class="pillar-card">
+                <h3>Empowerment</h3>
+                <p>Short description here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="vision">
+        <h2>The Vision of Future</h2>
+        <p>Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology...</p>
+    </section>
+
+    <section class="opinion">
+        <h2>Your Opinion Matters</h2>
+        <p>Questions and opinions form here.</p>
+    </section>
+
+    <section class="news-section">
+        <h2>Recent News</h2>
+        <div class="news-card">
+            <div class="news-image" style="background-image: url('satellite.jpg');"></div>
+            <div class="news-content">
+                <h3>Bangladesh Launches New Satellite</h3>
+                <p>Details about the news...</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="donate-section">
+        <h2>Donate Today</h2>
+        <div class="donate-buttons">
+            <button>100 Taka</button>
+            <button>200 Taka</button>
+            <button>500 Taka</button>
+            <button>1000 Taka</button>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe Newsletter</h2>
+        <input type="email" placeholder="Enter your email here">
+        <button>Subscribe</button>
+    </section>
+
+    <footer>
+        <p>Bangladesh 2.0</p>
+    </footer>
+</body>
+</html>
